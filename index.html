@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7019fddeed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <nav>
+    <img src="logol.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+        
+        <button id="sidebar" onclick="openFunction()"><i class="fa-solid fa-bars"></i></button>
+   </nav>
+   <aside id="aside">
+    <img src="logol.png" alt="Logo" class="logo"> 
+    <h2>lamborghini</h2>
+    <button id="close" onclick="closeFunction()"><i class="fa-solid fa-xmark"></i></button>
+    <ul>
+        <li><i class="fa-solid fa-bars" style="margin: 1rem;"></i><a href="">dashboard</a></li>
+       <li><i class="fa-solid fa-bars" style="margin: 1rem;"></i><a href="">revenue</a></li>
+         <li><i class="fa-solid fa-bars" style="margin: 1rem;"></i><a href="">notifications</a></li>
+           <li><i class="fa-solid fa-bars" style="margin: 1rem;"></i><a href="">analytics</a></li>
+             <li><i class="fa-solid fa-bars" style="margin: 1rem;"></i><a href="">liked</a></li>
+    </ul>
+    <img src="logol.png" alt="Logo" class="logo"> 
+    <div class="logout">
+        <button class="btn-logout"><i class="fa-solid fa-right-from-bracket"></i>Logout</button>
+    </div>
+   </aside>
+   <div class="main" id="main">
+    <div class="text" id="text">
+        <h1>Lamborghini
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores necessitatibus perspiciatis harum, consectetur aut inventore impedit ducimus sed illo nesciunt, dignissimos cumque in. Facere magnam, voluptates rem odio quidem autem?</p>
+        <button class="btn">Learn More</button>
+    </div>
+   </div>
+   <div class="cards">
+    .
+    <div class="card1">
+        <img src="huracan.jpg" alt="Lamborghini">
+        <h2>Huracan</h2>
+    </div>
+    <div class="card2">
+        <img src="aventador.jpg" alt="Lamborghini">
+        <h2>aventador</h2>
+    </div>
+    <div class="card3">
+        <img src="STO.jpeg" alt="Lamborghini">
+        <h2>STO</h2>
+    </div>
+    <div class="card4">
+        <img src="gallardo.jpg" alt="Lamborghini">
+        <h2>Gallardo</h2>
+    </div>
+   </div>
+   <div class="contact">
+    <br>
+    <br>
+    <h1>Contact Us</h1>
+    <form action="">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+   </div>
+    <footer>
+     <p>&copy; 2023 Lamborghini. All rights reserved.</p>
+     <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+     </div>
+</body>
+<script src="script.js"></script>
+</html>
